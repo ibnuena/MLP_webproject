@@ -1,0 +1,40 @@
+#wrap{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/*---------------------header--------------------------- */
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgb(178, 178, 178);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+    background-color: rgb(0, 0, 0);
+}
+
+#title{
+    color: white;
+}
+
+nav{
+    /* width: 87%; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin: 0 auto; /* 위아래 좌우 */
+}
+
+ul{
+    list-style: none;
+}
+
+ul.nav-items>li{
+    display: inline-block;
+    padding: 0 30px;
+    line-height: 60px;
+}
