@@ -10,18 +10,53 @@
     <div id="wrap">
         <header>
             <!-- header logo -->
-            <a class="logo" href="/index.html"><img src="./icon.png"></a>
+            <a class="logo" href="./main.html"><img src="./icon.png" id="icon"></a>
             <h1 id="title">U R music</h1>
             <nav>
                 <!-- nav -->
                 <ul class="nav-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">join</a></li>
                 </ul>
             </nav>
+            <img src="./profile.png" id="profile">
         </header>
+
+        <!--------------- 컨텐트 영역 ------------------->
+        <div id="content-wrap">
+            <aside>
+                <!-- aside  -->
+                <ul>
+                    <li><a href="./site_info.html">site info</a></li>
+                    <li><a href="./main.html">home</a></li>
+                    <li><a href="#">music</a></li>
+                    <li><a href="#">community</a></li>
+                </ul>
+            </aside>
+            <section class="section">
+                <div class="home">
+                    <h1>today hot clip</h1>
+                    <iframe id="video" width="100%" height="50%" src="https://www.youtube.com/embed/PGADim6UzHE?si=_NDK4MjzUCTp40_G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h1>week music rank</h1>
+                    <ol>
+                        <li>검정치마 - Antifreeze</li>
+                        <li>실리카겔 - no pain</li>
+                        <li>태연 - To.X</li>
+                        <li>에스파 - Drama</li>
+                        <li>radiohead - creep</li>
+                    </ol>
+                </div>
+                <div class="home">
+                    <h1 id="commu">community</h1>
+                    <div class="post">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et fringilla nisi. Vestibulum sed turpis odio. Nam a nibh ac lectus ultrices venenatis. Pellentesque ullamcorper mi justo, id facilisis nisi elementum eget. Proin quis arcu malesuada, consectetur nisi nec, interdum nisl. Morbi pellentesque in ligula vel faucibus. </p>
+                        <p>Aenean eget augue lacus. Nulla ut mi nisi. Nunc consectetur, est non semper dignissim, tellus tellus rhoncus lorem, at cursus enim ex vel turpis. Curabitur elementum elit imperdiet</p>
+                        <p>Aliquam eu ultrices quam. Mauris facilisis diam vitae mollis hendrerit. Morbi nec sagittis sem. Nunc vel mi commodo, cursus nisi facilisis, ultricies turpis. Fusce malesuada orci sed semper finibus. Pellentesque semper eros sed quam elementum, a pretium odio faucibus. Nunc at sapien sed</p>
+                    </div>
+                </div>
+               
+            </section>
+        </div>
     </div>
 </body>
 </html>
