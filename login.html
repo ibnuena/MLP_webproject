@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>u r music</title>
     <link rel="stylesheet" href="layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./out.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -33,12 +35,23 @@
                     <li><a href="./community.html">community</a></li>
                 </ul>
             </aside>
-            <section class="section3">
-                <h1 id="commu_title">community</h1>
-                <button id="btn" onclick="alert('준비중')">글 작성</button>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et fringilla nisi. Vestibulum sed turpis odio. Nam a nibh ac lectus ultrices venenatis. Pellentesque ullamcorper mi justo, id facilisis nisi elementum eget. Proin quis arcu malesuada, consectetur nisi nec, interdum nisl. Morbi pellentesque in ligula vel faucibus. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et fringilla nisi. Vestibulum sed turpis odio. Nam a nibh ac lectus ultrices venenatis. Pellentesque ullamcorper mi justo, id facilisis nisi elementum eget. Proin quis arcu malesuada, consectetur nisi nec, interdum nisl. Morbi pellentesque in ligula vel faucibus. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et fringilla nisi. Vestibulum sed turpis odio. Nam a nibh ac lectus ultrices venenatis. Pellentesque ullamcorper mi justo, id facilisis nisi elementum eget. Proin quis arcu malesuada, consectetur nisi nec, interdum nisl. Morbi pellentesque in ligula vel faucibus. </p>
+            <section class="login">
+                <h1>login</h1>
+                <table>
+                    <tr>
+                        <td>아이디</td>
+                        <td><input id="login_id" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호</td>
+                        <td><input id="login_pw" type="password"></td>
+                    </tr>
+                    
+                </table>
+                <button id="login_btn">login</button>
+                <div id="result3"></div>
+                <p>id : id1234</p>
+                <p>password : pw1234</p>
             </section>
         </div>
     </div>
